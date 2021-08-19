@@ -1,0 +1,42 @@
+{
+  "Striatum": {
+    "Imagem 1": 598,
+    "Imagem 2": 762,
+    "Imagem 3": 814,
+    "Imagem 4": 516,
+    "Imagem 5": 633,
+    "Imagem 6": 790,
+    "Imagem 7": 742,
+    "Imagem 8": 755
+  },
+  "Striatum 2": {
+    "Imagem 1": 737,
+    "Imagem 2": 736,
+    "Imagem 3": 780,
+    "Imagem 4": 828,
+    "Imagem 5": 717,
+    "Imagem 6": 724,
+    "Imagem 7": 686,
+    "Imagem 8": 747
+  },
+  "Cortex":{
+    "Imagem 1":510,
+    "Imagem 2":514,
+    "Imagem 3":512,
+    "Imagem 4":517,
+    "Imagem 5":668,
+    "Imagem 6":498,
+    "Imagem 7":523,
+    "Imagem 8":583
+  },
+  "Cortex 2":{
+    "Imagem 1":502,
+    "Imagem 2":801,
+    "Imagem 3":466,
+    "Imagem 4":622,
+    "Imagem 5":559,
+    "Imagem 6":657,
+    "Imagem 7":614,
+    "Imagem 8":535
+  }
+}

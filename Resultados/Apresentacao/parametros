@@ -1,0 +1,7 @@
+# Parametros do algoritmo genetico
+tamanho_pop: int = 1000
+tx_mutacao = 0.05
+tx_crossover = 0.8
+# num geracoes
+total_geracoes = 25
+image_path = "Imagens/Cortex 2/ANFIOXO_20.0x1.jpg"

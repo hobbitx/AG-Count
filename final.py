@@ -16,7 +16,7 @@ def unsharp_mask(image, kernel_size=(5, 5), sigma=1.0, amount=1.0, threshold=0):
     if threshold > 0:
         low_contrast_mask = np.absolute(image - blurred) < threshold
         np.copyto(sharpened, image, where=low_contrast_mask)
-    cv.imshow("Display window", sharpened)
+    #cv.imshow("Display window", sharpened)
     return sharpened
 
 def getCount(image,treshold,contrast):
@@ -47,6 +47,7 @@ def check_neuron(path,treshold, contrast):
         filename = f"{path}/{str_file}"
         image = cv.imread(filename)
         count = getCount(image,treshold, contrast)
+        print(filename)
         print(count)
 
 dt = pd.read_json("inputs.json")

@@ -365,6 +365,5 @@ if __name__ == "__main__":
     dt = pd.read_json("inputs.json")
     print(dt)
     paths = dt.keys()
-    for path in paths:
-        end_path = "Imagens/"+path
-        check_neuron(end_path)
+    check_neuron("Imagens/Cortex 2")
+        
